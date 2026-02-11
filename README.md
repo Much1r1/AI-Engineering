@@ -30,3 +30,9 @@ Later in this roadmap, this data could be used to build:
 * **Environment:** Google Colab
 * **Language:** Python 3.x
 * **Library:** Pandas
+
+## Feature Engineering for App Integration
+To prepare the data for a mobile UI, I implemented a feature engineering pipeline that:
+* **Extracted Brands:** Parsed raw strings to identify manufacturers.
+* **Categorized Fleet:** Developed a logic-based classifier to group vehicles into 'Economy', 'SUV', and 'Premium' tiers.
+* **Engine Mapping:** Isolated engine displacement values to allow for user-side filtering by performance/efficiency.
