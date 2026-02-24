@@ -37,6 +37,16 @@ Before modeling, the raw financial ledger was transformed via a robust pipeline:
 
 ---
 
+## Live Intelligence Report (Sample output)
+The system generates unified reports combining financial, predictive, and qualitative data:
+--- 📊 INTELLIGENCE REPORT: SGO-201 ---
+💰 Lifetime Profit/Loss: $188,287.00
+⏳ Predicted Next Rental Length: 32.2 months
+🎭 Current Customer Pulse: NEGATIVE (99.1% confidence)
+🚨 ACTION REQUIRED: Flagging vehicle for manual inspection.
+
+---
+
 ## Technical Architecture
 * **Data Science:** `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`
 * **Machine Learning:** `Scikit-Learn`, `TensorFlow` (Deep Learning MLP)
